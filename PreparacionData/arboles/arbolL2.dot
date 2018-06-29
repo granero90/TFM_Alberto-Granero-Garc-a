@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="X[2] <= 14.5\ngini = 0.779\nsamples = 382185\nvalue = [47470, 105973, 23519, 78915, 107801, 18507]", fillcolor="#8139e502"] ;
+1 [label="X[1] <= 44.5\ngini = 0.779\nsamples = 356096\nvalue = [44968, 100775, 22417, 67170, 102781, 17985]", fillcolor="#8139e502"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="X[2] <= 8.5\ngini = 0.777\nsamples = 174711\nvalue = [18210, 45731, 11887, 36679, 52905, 9299]", fillcolor="#8139e50e"] ;
+1 -> 2 ;
+3 [label="(...)", fillcolor="#C0C0C0"] ;
+2 -> 3 ;
+5492 [label="(...)", fillcolor="#C0C0C0"] ;
+2 -> 5492 ;
+11185 [label="X[2] <= 8.5\ngini = 0.777\nsamples = 181385\nvalue = [26758, 55044, 10530, 30491, 49876, 8686]", fillcolor="#9de5390a"] ;
+1 -> 11185 ;
+11186 [label="(...)", fillcolor="#C0C0C0"] ;
+11185 -> 11186 ;
+11875 [label="(...)", fillcolor="#C0C0C0"] ;
+11185 -> 11875 ;
+12412 [label="X[2] <= 15.5\ngini = 0.709\nsamples = 26089\nvalue = [2502, 5198, 1102, 11745, 5020, 522]", fillcolor="#399de550"] ;
+0 -> 12412 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+12413 [label="X[1] <= 44.5\ngini = 0.545\nsamples = 12381\nvalue = [712, 1502, 417, 8003, 1652, 95]", fillcolor="#399de597"] ;
+12412 -> 12413 ;
+12414 [label="(...)", fillcolor="#C0C0C0"] ;
+12413 -> 12414 ;
+13733 [label="(...)", fillcolor="#C0C0C0"] ;
+12413 -> 13733 ;
+13864 [label="X[2] <= 16.5\ngini = 0.772\nsamples = 13708\nvalue = [1790, 3696, 685, 3742, 3368, 427]", fillcolor="#399de501"] ;
+12412 -> 13864 ;
+13865 [label="(...)", fillcolor="#C0C0C0"] ;
+13864 -> 13865 ;
+14774 [label="(...)", fillcolor="#C0C0C0"] ;
+13864 -> 14774 ;
+}
