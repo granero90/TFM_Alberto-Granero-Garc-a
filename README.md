@@ -7,7 +7,8 @@ Trabajo Fin de Master de la UEMC sobre el dataset de kaggle de Colisiones en NY 
 DataOrigen	--> Contiene el dataset de origen, descargado de kaggle.
 
 Imagenes	--> Contienen las imágenes generadas en cada uno de los procesos.
-	ANS	--> Gráficos en el notebook "4_Algorimos No Supervisados"
+
+ANS	--> Gráficos en el notebook "4_Algorimos No Supervisados"
 	AS	--> Gráficos en el notebook "3_Algorimos Supervisados"
 	LD	--> Gráficos en el notebook "1_Limpieza de Datos"
 	EDA	--> Gráficos en el notebook "2_Analisis Exploratorio de Datos"
