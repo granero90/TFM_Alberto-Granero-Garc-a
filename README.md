@@ -5,7 +5,7 @@ Explicación
 ------------
 **Es importante no modificar la estructura de las carpetas, pues el proceso requiere de lecturas y escrituras intermedias y están configuradas a través de rutas relativas.
 
-- DataOrigen --> Contiene el dataset de origen, descargado de kaggle.
+- DataOrigen --> Contiene el dataset de origen, descargado de kaggle(falta el csv que por el tamaño no se ha podido añadir a GitHub, si está en drive).
 
 - Imagenes --> Contienen las imágenes generadas en cada uno de los procesos.
 	- ANS --> Gráficos en el notebook "4_Algorimos No Supervisados"
@@ -20,7 +20,5 @@ Explicación
 	- 3_Algorimos Supervisados
 	- 4_Algorimos No Supervisados
 
-- PreparacionData	--> Conjunto de datos intermedios para el funcionamiento de los procesos.
+- PreparacionData	--> Conjunto de datos intermedios para el funcionamiento de los procesos(faltan dos csv que por el tamaño no se ha podido añadir a GitHub, si están en drive).
 	- arboles	--> Archivos ".dot" de los árboles de nivel 2 y nivel 3.
-
-- Tableau	--> Proyecto de visualización generado mediante Tableau.
